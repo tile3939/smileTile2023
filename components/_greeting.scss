@@ -1,0 +1,15 @@
+.greeting {
+  background-color: rgb(244, 243, 229);
+  margin: 1rem 2rem;
+  border: 1px solid #666;
+  border-radius: 5px;
+  .container {
+    padding: 0 2rem 1rem;
+    letter-spacing: 0.15em;
+    line-height: 1.2;
+    span {
+      font-size: 1.4rem;
+      color: #999;
+    }
+  }
+}

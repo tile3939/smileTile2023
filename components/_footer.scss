@@ -1,0 +1,15 @@
+.footer {
+  text-align: center;
+  background-color: rgb(212, 208, 208);
+  img {
+    width: 150px;
+    height: 80px;
+    object-fit: cover;
+    display: inline-block;
+    margin: 0 auto;
+  }
+  small {
+    display: block;
+    padding-bottom: 1rem;
+  }
+}

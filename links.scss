@@ -1,0 +1,48 @@
+@use "collect" as *;
+.main {
+  width: 100%;
+  margin: 0 auto;
+  .container {
+    background-color: #555;
+    color: #fff;
+    dl {
+      padding: 2rem;
+    }
+    .dt-wraper {
+      display: flex;
+      align-items: center;
+    }
+    dt {
+      font-size: 2rem;
+      &.link-name {
+        font-family: $enFont;
+        color: rgb(255, 213, 0);
+        font-weight: bold;
+        margin-left: 3rem;
+      }
+    }
+    a {
+      display: inline-block;
+    }
+    .logo-wraper {
+      background-color: #fff;
+      height: 4rem;
+
+      img {
+        // display: block;
+        width: 20rem;
+        height: 4rem;
+        object-fit: contain;
+      }
+    }
+    dd {
+      font-size: 1.8rem;
+      letter-spacing: 0.15em;
+      line-height: 1.2;
+      margin-top: 1rem;
+      margin-left: 1rem;
+      margin-bottom: 5rem;
+      border-bottom: 1px solid #fff;
+    }
+  }
+}
