@@ -1,0 +1,50 @@
+@use "collect" as *;
+.hero {
+  .container {
+    // text-align: center;
+    height: 30vh;
+    background-image: url("image/hero_image2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    .filter {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background-color: rgba(187, 186, 186, 0.5);
+    }
+    h2 {
+      position: absolute;
+      left: 3rem;
+      z-index: 10;
+      font-family: "Libre Baskerville", serif;
+      text-shadow: 2px 2px 2px white;
+      font-size: 3rem;
+      line-height: 30vh;
+      span {
+        color: rgb(190, 4, 4);
+      }
+    }
+  }
+}
+
+.article {
+  width: 90%;
+  margin: 0 auto;
+}
+.swiper-slide {
+  padding: 2rem;
+  height: 500px;
+  background-color: rgb(101, 101, 101);
+}
+.swiper-button-prev::after {
+  color: #333;
+  background-color: aliceblue;
+  border: 2px solid orange;
+}
+.swiper-button-next::after {
+  color: #333;
+  background-color: aliceblue;
+  border: 2px solid orange;
+}
