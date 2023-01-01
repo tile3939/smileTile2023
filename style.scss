@@ -38,13 +38,35 @@
   height: 500px;
   background-color: rgb(101, 101, 101);
 }
-.swiper-button-prev::after {
-  color: #333;
-  background-color: aliceblue;
-  border: 2px solid orange;
+.mySwiper {
+  .swiper-button-prev::after {
+    color: #333;
+    background-color: aliceblue;
+    border: 2px solid orange;
+  }
+  .swiper-button-next::after {
+    color: #333;
+    background-color: aliceblue;
+    border: 2px solid orange;
+  }
 }
-.swiper-button-next::after {
-  color: #333;
-  background-color: aliceblue;
-  border: 2px solid orange;
+
+.subSwiper {
+  .swiper-button-prev::after {
+    font-size: 1.6rem;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    // background-color: aliceblue;
+    // border: 2px solid orange;
+  }
+  .swiper-button-next::after {
+    font-size: 1.6rem;
+    color: #fff;
+    margin-right: 0;
+    position: absolute;
+    right: 0;
+    // background-color: aliceblue;
+    // border: 2px solid orange;
+  }
 }
