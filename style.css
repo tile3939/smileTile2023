@@ -152,16 +152,15 @@ body {
 
 .swiper-slide {
   padding: 2rem;
-  height: 500px;
   background-color: rgb(101, 101, 101);
 }
 
-.mySwiper .swiper-button-prev::after {
+.mainSwiper .swiper-button-prev::after {
   color: #333;
   background-color: aliceblue;
   border: 2px solid orange;
 }
-.mySwiper .swiper-button-next::after {
+.mainSwiper .swiper-button-next::after {
   color: #333;
   background-color: aliceblue;
   border: 2px solid orange;

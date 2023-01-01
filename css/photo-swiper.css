@@ -2,7 +2,12 @@
   width: 100%;
   /* height: 100%; */
 }
-
+.swiper-wrapper {
+  height: 400px;
+}
+.sub-swiper-wrapper {
+  height: 150px;
+}
 .swiper-slide {
   /* text-align: center; */
   flex-direction: column;
@@ -27,15 +32,15 @@
 
 .swiper-slide img {
   display: block;
-  /* max-width: 100%; */
-  height: 500px;
+  max-width: 100%;
+  height: 100%;
   object-fit: contain;
 }
-.subSwiper img {
-  width: 100%;
+.sub img {
+  /* width: 100%; */
   height: 150px;
 }
-.subSwiper .swiper-slide img:hover {
+.sub .swiper-slide img:hover {
   cursor: pointer;
 }
 

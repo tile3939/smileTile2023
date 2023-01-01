@@ -1,1 +1,41 @@
 @use "collect" as *;
+main section {
+  width: 50%;
+}
+.swiper-slide {
+  padding: 2rem;
+  // height: 500px;
+  background-color: rgb(143, 139, 139);
+}
+.main {
+  .swiper-button-prev::after {
+    color: #333;
+    background-color: aliceblue;
+    border: 2px solid orange;
+  }
+  .swiper-button-next::after {
+    color: #333;
+    background-color: aliceblue;
+    border: 2px solid orange;
+  }
+}
+
+.sub {
+  .swiper-button-prev::after {
+    font-size: 1.6rem;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    // background-color: aliceblue;
+    // border: 2px solid orange;
+  }
+  .swiper-button-next::after {
+    font-size: 1.6rem;
+    color: #fff;
+    margin-right: 0;
+    position: absolute;
+    right: 0;
+    // background-color: aliceblue;
+    // border: 2px solid orange;
+  }
+}

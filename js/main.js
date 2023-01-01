@@ -13,7 +13,7 @@ const subSwiper = new Swiper(".subSwiper", {
   mousewheel: true,
   keyboard: true,
 });
-const swiper = new Swiper(".mySwiper", {
+const swiper = new Swiper(".mainSwiper", {
   cssMode: true,
   loop: true,
   navigation: {
