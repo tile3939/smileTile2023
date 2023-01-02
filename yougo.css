@@ -20,7 +20,7 @@ html {
 
 body {
   background-color: rgb(214, 211, 211);
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-family: "Noto Sans JP", sans-serif;
   color: #333;
   letter-spacing: 0.2em;
@@ -69,7 +69,7 @@ body {
   width: 150px;
   height: 80px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   display: inline-block;
   margin: 0 auto;
 }
@@ -136,11 +136,10 @@ body {
   letter-spacing: 0.2em;
   margin-right: 0.8em;
   background-color: rgb(251, 249, 249);
-  color: #666;
-  font-weight: bold;
+  color: #333;
   padding: 10px 20px;
   border: 1px solid #666;
-  border-radius: 10px 10px 0 0;
+  border-radius: 5px 5px 0 0;
 }
 
 .tab-nav-item.is-active {
@@ -208,15 +207,6 @@ td {
 }
 
 .toplink-btn {
-  width: 6em;
-  background-color: #fff;
-  border: 2px solid rgb(219, 4, 4);
-  border-radius: 5px;
   font-size: 2.5rem;
   margin: 0 auto;
-  padding: 0.3em;
-}
-.toplink-btn a {
-  display: block;
-  text-align: center;
-}/*# sourceMappingURL=yougo.css.map */
+} /*# sourceMappingURL=yougo.css.map */

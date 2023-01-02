@@ -1,8 +1,8 @@
 const subSwiper = new Swiper(".photo1-sub", {
   cssMode: true,
   loop: true,
-  slidesPerView: 3,
-  slidesPerGroup: 3,
+  slidesPerView: 4,
+  slidesPerGroup: 1,
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
@@ -32,8 +32,8 @@ const swiper = new Swiper(".photo1", {
 const subSwiper2 = new Swiper(".subSwiper2", {
   cssMode: true,
   loop: true,
-  slidesPerView: 3,
-  slidesPerGroup: 3,
+  slidesPerView: 4,
+  slidesPerGroup: 1,
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
@@ -63,8 +63,8 @@ const swiper2 = new Swiper(".mainSwiper2", {
 const subSwiper3 = new Swiper(".subSwiper3", {
   cssMode: true,
   loop: true,
-  slidesPerView: 3,
-  slidesPerGroup: 3,
+  slidesPerView: 4,
+  slidesPerGroup: 1,
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
@@ -94,8 +94,8 @@ const swiper3 = new Swiper(".mainSwiper3", {
 const subSwiper4 = new Swiper(".subSwiper4", {
   cssMode: true,
   loop: true,
-  slidesPerView: 3,
-  slidesPerGroup: 3,
+  slidesPerView: 4,
+  slidesPerGroup: 1,
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
