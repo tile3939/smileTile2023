@@ -36,7 +36,7 @@
 .swiper-slide {
   padding: 2rem;
   // height: 500px;
-  background-color: rgb(101, 101, 101);
+  background-color: rgb(149, 145, 145);
 }
 .mainSwiper {
   .swiper-button-prev::after {
@@ -54,6 +54,7 @@
 .subSwiper {
   .swiper-button-prev::after {
     font-size: 1.6rem;
+    font-weight: bold;
     color: #fff;
     position: absolute;
     left: 0;
@@ -62,6 +63,7 @@
   }
   .swiper-button-next::after {
     font-size: 1.6rem;
+    font-weight: bold;
     color: #fff;
     margin-right: 0;
     position: absolute;
@@ -69,4 +71,14 @@
     // background-color: aliceblue;
     // border: 2px solid orange;
   }
+}
+.tag {
+  width: 10em;
+  color: rgb(250, 83, 83);
+  border: 3px solid orange;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #fff;
+  padding: 0.3em;
 }
