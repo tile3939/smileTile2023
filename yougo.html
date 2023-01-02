@@ -16,10 +16,11 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
     />
-    <link rel="stylesheet" href="links.css" />
+    <link rel="stylesheet" href="yougo.css" />
+    <script src="js/yougo.js" defer></script>
   </head>
   <body>
-    <header class="header">
+    <header id="yougo-top" class="header">
       <div class="container">
         <p>用語集</p>
         <img src="image/smiletile.png" alt="ロゴ画像" />
@@ -54,7 +55,459 @@
       </div>
     </section>
     <main class="main">
-      <div class="tab" id="js-tab"></div>
+      <div class="tab" id="js-tab">
+        <div class="tab-nav">
+          <a href="" class="tab-nav-item is-active" data-nav="0"
+            >タイルについて</a
+          >
+          <a href="" class="tab-nav-item" data-nav="1">目地パターン</a>
+          <a href="" class="tab-nav-item" data-nav="2">施工について</a>
+        </div>
+        <div class="tab-contents">
+          <div class="tab-contents-item" data-content="0">
+            <!-- タイルについて -->
+            <dl>
+              <div class="yougo-wrapper">
+                <div class="dt-container">
+                  <dt class="yougo-text">タイル</dt>
+                  <dt class="yougo-image">
+                    <!-- <img src="image/yougo/PXL_20221227_085415324.jpg" alt="" /> -->
+
+                    <table>
+                      <tbody>
+                        <tr>
+                          <th>旧分類表記(自然吸水率)</th>
+                          <th>新分類表記(強制吸水率)</th>
+                        </tr>
+                        <tr>
+                          <td>磁器質（1.0%以下）</td>
+                          <td>Ⅰ類（3.0%以下）</td>
+                        </tr>
+                        <tr>
+                          <td>せっ器質（5.0%以下）</td>
+                          <td>Ⅱ類（10.0%以下）</td>
+                        </tr>
+                        <tr>
+                          <td>陶器質（22.0%）</td>
+                          <td>Ⅲ類（50.0%以下）</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </dt>
+                </div>
+
+                <dd>
+                  建築物の壁や床に幅広く使用される陶磁器製の板状の仕上げ材。
+                  主に陶器質、せっ器質、磁器質の3種類に分けられる。
+                  2008年のJIS規格の改正により、吸水率の違いでⅠ類、Ⅱ類、Ⅲ類に分類に変更されました。
+                </dd>
+              </div>
+              <div class="yougo-wrapper">
+                <div class="dt-container">
+                  <dt class="yougo-text">磁器質タイル（Ⅰ類）</dt>
+                  <dt class="yougo-image">
+                    <img src="image/yougo/PXL_20221227_085415324.jpg" alt="" />
+                  </dt>
+                </div>
+                <dd>
+                  吸水率3%以下<br />
+                  硬くてほとんど水分を吸わない。
+                  耐久性に優れているので、外装に向いているが、
+                  内装に使用される事も多い。
+                </dd>
+              </div>
+              <div class="yougo-wrapper">
+                <div class="dt-container">
+                  <dt class="yougo-text">せっき質タイル（Ⅱ類）</dt>
+                  <dt class="yougo-image">
+                    <img src="image/yougo/PXL_20221227_085415324.jpg" alt="" />
+                  </dt>
+                </div>
+                <dd>
+                  吸水率10%以下<br />
+                  硬く、耐久性に優れている。 素朴で暖かみのある物が多い。
+                  主に外壁や床に使用される。
+                </dd>
+              </div>
+              <div class="yougo-wrapper">
+                <div class="dt-container">
+                  <dt class="yougo-text">陶器質タイル（Ⅲ類）</dt>
+                  <dt class="yougo-image">
+                    <img src="image/yougo/PXL_20221227_085415324.jpg" alt="" />
+                  </dt>
+                </div>
+                <dd>
+                  吸水率50%以下でよく水分を吸うタイル。
+                  強度が低いので、主に内装壁に使用される。
+                </dd>
+              </div>
+              <div class="yougo-wrapper">
+                <div class="dt-container">
+                  <dt class="yougo-text">目地（めじ）</dt>
+                  <dt class="yougo-image">
+                    <img src="image/yougo/PXL_20221227_085415324.jpg" alt="" />
+                  </dt>
+                </div>
+                <dd>
+                  タイルとタイルの間の隙間の事。<br />
+                  一般的には目地は目地用のセメント（目地材）で埋める事が多い。
+                  表面の荒いタイルの場合は埋めずに仕上げる事もある。
+                  目地の広さや目地材の色によって仕上がりの雰囲気が大きく変わります。
+                </dd>
+              </div>
+              <div class="yougo-wrapper">
+                <div class="dt-container">
+                  <dt class="yougo-text">100角、300角など</dt>
+                  <dt class="yougo-image">
+                    <img src="image/yougo/PXL_20221227_085415324.jpg" alt="" />
+                  </dt>
+                </div>
+                <dd>
+                  「◯◯角」の◯◯が１辺の寸法（mm）の正方形タイル<br />
+                  一般的には目地幅寸法も含めての呼び名ですが、タイルの実寸法の値の場合もあります。
+                </dd>
+              </div>
+              <div class="yougo-wrapper">
+                <div class="dt-container">
+                  <dt class="yougo-text">二丁掛（にちょうがけ）</dt>
+                  <dt class="yougo-image">
+                    <img src="image/yougo/PXL_20221227_085415324.jpg" alt="" />
+                  </dt>
+                </div>
+                <dd>
+                  長辺=227mm、短辺=60mmの長方形タイル<br />主に外壁や塀に使用されます。
+                </dd>
+              </div>
+              <div class="yougo-wrapper">
+                <div class="dt-container">
+                  <dt class="yougo-text">小口（こぐち）</dt>
+                  <dt class="yougo-image">
+                    <img src="image/yougo/PXL_20221227_085415324.jpg" alt="" />
+                  </dt>
+                </div>
+                <dd>
+                  長辺=108mm、短辺=60mmの長方形タイル<br />
+                  主に外壁に使用されます。最近では内装でも使われます。
+                </dd>
+              </div>
+              <div class="yougo-wrapper">
+                <div class="dt-container">
+                  <dt class="yougo-text">45二丁（よんごーにちょう）</dt>
+                  <dt class="yougo-image">
+                    <img src="image/yougo/PXL_20221227_085415324.jpg" alt="" />
+                  </dt>
+                </div>
+                <dd>
+                  長辺=95mm、短辺=45mmの長方形タイル<br />
+                  ビルの外壁に多く使われています。
+                </dd>
+              </div>
+              <div class="yougo-wrapper">
+                <div class="dt-container">
+                  <dt class="yougo-text">45角（よんごーかく）</dt>
+                  <dt class="yougo-image">
+                    <img src="image/yougo/PXL_20221227_085415324.jpg" alt="" />
+                  </dt>
+                </div>
+                <dd>
+                  １辺が45mmの正方形タイル<br />
+                  主に外壁と浴室の床等に使用されます。５０角（ごじゅっかく）とも言われます。
+                </dd>
+              </div>
+              <div class="yougo-wrapper">
+                <div class="dt-container">
+                  <dt class="yougo-text">ボーダータイル</dt>
+                  <dt class="yougo-image">
+                    <img src="image/yougo/PXL_20221227_085415324.jpg" alt="" />
+                  </dt>
+                </div>
+                <dd>
+                  明確な定義はされていませんが、
+                  長辺=250mm、短辺=50mmなど、細身の長方形タイル
+                </dd>
+              </div>
+              <div class="yougo-wrapper">
+                <div class="dt-container">
+                  <dt class="yougo-text">36角（さぶろくかく）</dt>
+                  <dt class="yougo-image">
+                    <img src="image/yougo/PXL_20221227_085415324.jpg" alt="" />
+                  </dt>
+                </div>
+                <dd>
+                  昔の規格の大きさのタイル<br />
+                  1辺が三寸六分=約11cmの正方形タイル
+                  今ではほとんど使用されない。
+                  大きさが100角と似ているので、補修の場合注意が必要です。
+                </dd>
+              </div>
+              <div class="yougo-wrapper">
+                <div class="dt-container">
+                  <dt class="yougo-text">モザイクタイル</dt>
+                  <dt class="yougo-image">
+                    <img src="image/yougo/PXL_20221227_085415324.jpg" alt="" />
+                  </dt>
+                </div>
+                <dd>
+                  寸法が小さなタイル<br />
+                  主に内装に使用される細かいタイル。１枚づつ張るのは困難なので、
+                  300角位のシートにユニット化されている物が多い。
+                </dd>
+              </div>
+              <div class="yougo-wrapper">
+                <div class="dt-container">
+                  <dt class="yougo-text">ガラスモザイク</dt>
+                  <dt class="yougo-image">
+                    <img src="image/yougo/PXL_20221227_085415324.jpg" alt="" />
+                  </dt>
+                </div>
+                <dd>
+                  ガラスのモザイクタイル<br />
+                  ガラスにしか出せない艶でタイルより高級感があります。
+                  ガラスなので、現場での切断加工は難しいです。
+                </dd>
+              </div>
+              <div class="yougo-wrapper">
+                <div class="dt-container">
+                  <dt class="yougo-text">役物（やくもの）</dt>
+                  <dt class="yougo-image">
+                    <img src="image/yougo/PXL_20221227_085415324.jpg" alt="" />
+                  </dt>
+                </div>
+                <dd>
+                  出隅(ですみ)コーナー部分などに使用するための特殊形状タイルの事<br />
+
+                  外装、内装に様々な種類があります。
+                  曲り、屏風曲り、面取、両面取、タレ付き段鼻、小端施釉など。
+                  対して標準の形状の事を「平物(ひらもの)」、「平(ひら)」という。
+                </dd>
+              </div>
+            </dl>
+            <div class="toplink-btn"><a href="#yougo-top">TOPへ</a></div>
+          </div>
+          <div class="tab-contents-item" data-content="1">
+            <!-- 目地パターン -->
+            <dl>
+              <div class="yougo-wrapper meji">
+                <div class="dt-container">
+                  <dt class="yougo-text">馬目地（うまめじ）</dt>
+                  <dt class="yougo-image">
+                    <img src="image/yougo/PXL_20221227_085415324.jpg" alt="" />
+                  </dt>
+                </div>
+                <dd>配置寸法を段ごとに半分ずつずらして張る張り方。</dd>
+              </div>
+              <div class="yougo-wrapper meji">
+                <div class="dt-container">
+                  <dt class="yougo-text">いも目地（いもめじ）、通し目地</dt>
+                  <dt class="yougo-image">
+                    <img src="image/yougo/PXL_20221227_085415324.jpg" alt="" />
+                  </dt>
+                </div>
+                <dd>縦横の配置をそろえて目地を通す張り方。</dd>
+              </div>
+              <div class="yougo-wrapper meji">
+                <div class="dt-container">
+                  <dt class="yougo-text">四半目地（しはんめじ）</dt>
+                  <dt class="yougo-image">
+                    <img src="image/yougo/PXL_20221227_085415324.jpg" alt="" />
+                  </dt>
+                </div>
+                <dd>いも目地の基準を45°回転させ、対角線を基準とする張り方。</dd>
+              </div>
+              <div class="yougo-wrapper meji">
+                <div class="dt-container">
+                  <dt class="yougo-text">イギリス張り</dt>
+                  <dt class="yougo-image">
+                    <img src="image/yougo/PXL_20221227_085415324.jpg" alt="" />
+                  </dt>
+                </div>
+                <dd>二丁掛と小口を段ごとに交互に張る張り方。</dd>
+              </div>
+              <div class="yougo-wrapper meji">
+                <div class="dt-container">
+                  <dt class="yougo-text">フランス張り</dt>
+                  <dt class="yougo-image">
+                    <img src="image/yougo/PXL_20221227_085415324.jpg" alt="" />
+                  </dt>
+                </div>
+                <dd>
+                  画像の張り方<br />
+                  あまり使われませんが、面白い張り方ですね。
+                </dd>
+              </div>
+              <div class="yougo-wrapper meji">
+                <div class="dt-container">
+                  <dt class="yougo-text">やはず張り(ヘリンボーン)</dt>
+                  <dt class="yougo-image">
+                    <img src="image/yougo/PXL_20221227_085415324.jpg" alt="" />
+                  </dt>
+                </div>
+                <dd>
+                  言葉では説明できません。(^^ゞ 画像の張り方です。<br />
+                  個性的で愛着のわく張り方ですが、施工は大変です。
+                </dd>
+              </div>
+            </dl>
+            <div class="toplink-btn"><a href="#yougo-top">TOPへ</a></div>
+          </div>
+          <div class="tab-contents-item" data-content="2">
+            <!-- 施工用語 -->
+            <dl>
+              <div class="yougo-wrapper sekou">
+                <div class="dt-container">
+                  <dt class="yougo-text">
+                    陸墨(ろくずみ)<br />垂直墨(すいちょくずみ)
+                  </dt>
+                  <dt class="yougo-image">
+                    <img src="image/yougo/PXL_20221227_085415324.jpg" alt="" />
+                  </dt>
+                </div>
+                <dd>
+                  タイルに限らず建築の基本<br />
+                  陸墨は水平のライン、垂直墨は垂直のライン
+                  水平と垂直が交差する角度が直角(90°)になり、
+                  壁にタイルを張る時の基準となります。
+                </dd>
+              </div>
+              <div class="yougo-wrapper sekou">
+                <div class="dt-container">
+                  <dt class="yougo-text">矩(かね)</dt>
+                  <dt class="yougo-image">
+                    <img src="image/yougo/PXL_20221227_085415324.jpg" alt="" />
+                  </dt>
+                </div>
+                <dd>
+                  直角(90°)の事。<br />
+                  タイルを張る基準となる 基準の直角ラインを決める時に
+                  「矩を出す」と言ったりします。
+                </dd>
+              </div>
+              <div class="yougo-wrapper sekou">
+                <div class="dt-container">
+                  <dt class="yougo-text">割り付け、タイル割り</dt>
+                  <dt class="yougo-image">
+                    <img src="image/yougo/PXL_20221227_085415324.jpg" alt="" />
+                  </dt>
+                </div>
+                <dd>
+                  タイルを張る前に計画するタイルの配置計画<br />
+                  施工面全体の寸法とタイルの大きさを考慮して
+                  なるべく小さなカット物が入らないようにするのが好ましい。
+                </dd>
+              </div>
+              <div class="yougo-wrapper sekou">
+                <div class="dt-container">
+                  <dt class="yougo-text">心(しん)割り</dt>
+                  <dt class="yougo-image">
+                    <img src="image/yougo/PXL_20221227_085415324.jpg" alt="" />
+                  </dt>
+                </div>
+                <dd>
+                  タイル割りの種類のひとつ<br />
+                  施工面の中心とタイルor目地の中心を合わせる方法
+                  左右対称に配置されるので安定感がある。
+                </dd>
+              </div>
+              <div class="yougo-wrapper sekou">
+                <div class="dt-container">
+                  <dt class="yougo-text">方追い(かたおい)</dt>
+                  <dt class="yougo-image">
+                    <img src="image/yougo/PXL_20221227_085415324.jpg" alt="" />
+                  </dt>
+                </div>
+                <dd>
+                  タイル割の種類のひとつ<br />
+                  施工面の一方の端部からスタートさせる方法
+                  特に目につく部分を優先して配置したい場合に用いる。
+                </dd>
+              </div>
+              <div class="yougo-wrapper sekou">
+                <div class="dt-container">
+                  <dt class="yougo-text">真物(まもの)</dt>
+                  <dt class="yougo-image">
+                    <img src="image/yougo/PXL_20221227_085415324.jpg" alt="" />
+                  </dt>
+                </div>
+                <dd>カットしていないタイルの事。</dd>
+              </div>
+              <div class="yougo-wrapper sekou">
+                <div class="dt-container">
+                  <dt class="yougo-text">半マス(はんます)</dt>
+                  <dt class="yougo-image">
+                    <img src="image/yougo/PXL_20221227_085415324.jpg" alt="" />
+                  </dt>
+                </div>
+                <dd>真物を半分にカットしたタイルの事。</dd>
+              </div>
+              <div class="yougo-wrapper sekou">
+                <div class="dt-container">
+                  <dt class="yougo-text">浮き、剥離(はくり)</dt>
+                  <dt class="yougo-image">
+                    <img src="image/yougo/PXL_20221227_085415324.jpg" alt="" />
+                  </dt>
+                </div>
+                <dd>
+                  何らかの原因によってタイルが下地からはがれそうになっている状態の事<br />
+                  外壁の高所であれば大変危険な状態。<br />
+                  「打診棒」という道具で音による調査ができる。
+                </dd>
+              </div>
+              <div class="yougo-wrapper sekou">
+                <div class="dt-container">
+                  <dt class="yougo-text">クラック</dt>
+                  <dt class="yougo-image">
+                    <img src="image/yougo/PXL_20221227_085415324.jpg" alt="" />
+                  </dt>
+                </div>
+                <dd>
+                  タイルが割れてヒビが発生している状態の事。<br />
+                  原因は様々ですが、高所や水かかりのある部分は早期に対処する事が望ましい。
+                </dd>
+              </div>
+              <div class="yougo-wrapper sekou">
+                <div class="dt-container">
+                  <dt class="yougo-text">ピンホール</dt>
+                  <dt class="yougo-image">
+                    <img src="image/yougo/PXL_20221227_085415324.jpg" alt="" />
+                  </dt>
+                </div>
+                <dd>
+                  目地に穴があいている状態の事<br />
+                  施工不良の場合と経年劣化が原因の場合とがある。
+                </dd>
+              </div>
+              <div class="yougo-wrapper sekou">
+                <div class="dt-container">
+                  <dt class="yougo-text">不陸(ふりく)</dt>
+                  <dt class="yougo-image">
+                    <img src="image/yougo/PXL_20221227_085415324.jpg" alt="" />
+                  </dt>
+                </div>
+                <dd>
+                  表面が平(たいら)でなく、凸凹がある状態の事<br />
+                  タイル施工においては張る前の下地に不陸があると仕上げにも影響してしまう
+                  下地の状態の良し悪しはとても重要です。
+                </dd>
+              </div>
+              <div class="yougo-wrapper sekou">
+                <div class="dt-container">
+                  <dt class="yougo-text">水勾配(みずこうばい)</dt>
+                  <dt class="yougo-image">
+                    <img src="image/yougo/PXL_20221227_085415324.jpg" alt="" />
+                  </dt>
+                </div>
+                <dd>
+                  床面に考慮する傾斜<br />
+                  水かかりのある床の施工面では、水が溜まらないように考慮する必要があります。
+                  寸法の大きなタイルでは排水目標の位置によっては
+                  水勾配をとるのが困難な場合があります。
+                </dd>
+              </div>
+            </dl>
+            <div class="toplink-btn"><a href="#yougo-top">TOPへ</a></div>
+          </div>
+        </div>
+      </div>
     </main>
 
     <footer class="footer">
