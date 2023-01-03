@@ -124,7 +124,8 @@ body {
 }
 
 main section {
-  width: 50%;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .swiper-slide {
@@ -143,6 +144,10 @@ main section {
   border: 2px solid orange;
 }
 
+.photoArea {
+  margin-bottom: 0.8em;
+}
+
 .sub .swiper-button-prev::after {
   font-size: 1.6rem;
   color: #fff;
@@ -155,4 +160,15 @@ main section {
   margin-right: 0;
   position: absolute;
   right: 0;
+}
+
+.tag {
+  width: 10em;
+  color: rgb(83, 94, 250);
+  border: 3px solid rgb(0, 98, 255);
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #fff;
+  padding: 0.3em;
 }/*# sourceMappingURL=photos.css.map */
