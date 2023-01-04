@@ -140,23 +140,38 @@ body {
 
 .syutudai_container {
   width: 90%;
-  height: 30vh;
+  height: 35vh;
   margin: 0 auto;
   background-color: rgb(237, 241, 191);
   position: relative;
 }
 .syutudai_container img {
   display: block;
-  height: 40%;
+  height: 50%;
   margin: 1em auto;
 }
 .syutudai_container button {
+  font-size: 2rem;
   position: absolute;
-  bottom: 0.5em;
+  bottom: 2em;
   left: 50%;
   transform: translateX(-50%);
 }
-
+.syutudai_container .onemoreButton {
+  display: block;
+  background-color: #fff;
+  border: 1px solid #333;
+  padding: 0.5em 0.2em;
+  border-radius: 5px;
+  font-size: 2rem;
+  position: absolute;
+  bottom: 5em;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.syutudai_container .onemoreButton.block {
+  display: block;
+}
 .select_container {
   position: relative;
 }
@@ -177,14 +192,15 @@ body {
 
 .judge_area {
   width: 90%;
-  height: 25vh;
+  height: 20vh;
   margin: 0 auto;
   background-color: rgb(237, 241, 191);
   position: relative;
 }
 .judge_area button {
+  font-size: 2rem;
   position: absolute;
-  bottom: 0.5em;
+  bottom: 3em;
   left: 50%;
   transform: translateX(-50%);
 }

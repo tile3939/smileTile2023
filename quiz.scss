@@ -14,20 +14,39 @@
 }
 .syutudai_container {
   width: 90%;
-  height: 30vh;
+  height: 35vh;
   margin: 0 auto;
   background-color: rgb(237, 241, 191);
   position: relative;
   img {
     display: block;
-    height: 40%;
+    height: 50%;
     margin: 1em auto;
   }
   button {
+    font-size: 2rem;
     position: absolute;
-    bottom: 0.5em;
+    bottom: 2em;
     left: 50%;
     transform: translateX(-50%);
+  }
+  .onemoreButton {
+    display: block;
+    background-color: #fff;
+    border: 1px solid #333;
+    padding: 0.5em 0.2em;
+    border-radius: 5px;
+    font-size: 2rem;
+    position: absolute;
+    bottom: 5em;
+    left: 50%;
+    transform: translateX(-50%);
+    &.block {
+      display: block;
+    }
+    &.none {
+      // display: none;
+    }
   }
 }
 .select_container {
@@ -49,13 +68,14 @@
 }
 .judge_area {
   width: 90%;
-  height: 25vh;
+  height: 20vh;
   margin: 0 auto;
   background-color: rgb(237, 241, 191);
   position: relative;
   button {
+    font-size: 2rem;
     position: absolute;
-    bottom: 0.5em;
+    bottom: 3em;
     left: 50%;
     transform: translateX(-50%);
     &.block {
