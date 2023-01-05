@@ -29,7 +29,7 @@ const quiz = [
   {
     question:
       "施工面の中心とタイルor目地の中心を合わせ、左右対称に配置されるタイルの割り付け方法の名称は？",
-    question_image: "image/yougo/yoougo_imomezi.jpg",
+    question_image: "image/yougo/yougo_sinwari.png",
     answers: ["心(しん割り)", "方追い", "目地割り"],
     corect: "心(しん割り)",
   },
@@ -91,10 +91,10 @@ nextButton.addEventListener("click", init);
 
 const clickHandler = (e) => {
   if (quiz[quizCount].corect === e.target.textContent) {
-    judge_area.firstChild.textContent = "正解！！";
+    judge_area.firstChild.textContent = "   正解！！";
     score++;
   } else {
-    judge_area.firstChild.textContent = `不正解！　正解は ${quiz[quizCount].corect} でした。`;
+    judge_area.firstChild.textContent = `不正解！ 正解は ${quiz[quizCount].corect} でした。`;
   }
   quizCount++;
   nextButton.classList.remove("none");

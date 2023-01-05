@@ -142,6 +142,7 @@ body {
   width: 90%;
   height: 35vh;
   margin: 0 auto;
+  padding: 0.5em;
   background-color: rgb(237, 241, 191);
   position: relative;
 }
@@ -194,13 +195,14 @@ body {
   width: 90%;
   height: 20vh;
   margin: 0 auto;
+  padding: 0.5em 1em;
   background-color: rgb(237, 241, 191);
   position: relative;
 }
 .judge_area button {
   font-size: 2rem;
   position: absolute;
-  bottom: 3em;
+  bottom: 2.5em;
   left: 50%;
   transform: translateX(-50%);
 }
